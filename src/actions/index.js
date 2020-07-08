@@ -3,6 +3,7 @@ export const getContacts = (contacts) => {
   filterContacts(contacts, '');
   return {
     type: 'GET_CONTACTS',
+    payload: contacts,
   };
 };
 

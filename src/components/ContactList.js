@@ -1,8 +1,13 @@
 import React from 'react';
+import { getContacts } from '../actions';
 import { connect } from 'react-redux';
 import ContactItem from './ContactItem';
 
 class ContactList extends React.Component {
+  componentDidMount() {
+    this.props.getContacts(this.props.contacts);
+  }
+
   renderList() {
     return this.props.filteredContacts.map((contact) => {
       return (
@@ -22,7 +27,7 @@ class ContactList extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-  return { filteredContacts: state.filteredContacts };
+  return { filteredContacts: state.filteredContacts, contacts: state.contacts };
 };
 
-export default connect(mapStateToProps)(ContactList);
+export default connect(mapStateToProps, { getContacts })(ContactList);

@@ -1,12 +1,12 @@
 import React from 'react';
 import ContactList from './ContactList';
-import { getContacts, inputChange, filterContacts } from '../actions';
+import { inputChange, filterContacts } from '../actions';
 import { connect } from 'react-redux';
 
 class App extends React.Component {
   onInputChange = (event) => {
     this.props.inputChange(event.target.value);
-    this.props.filterContacts(this.props.contacts, this.props.input);
+    this.props.filterContacts(this.props.contacts, event.target.value);
   };
 
   render() {
@@ -40,7 +40,6 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps, {
-  getContacts,
   inputChange,
   filterContacts,
 })(App);
