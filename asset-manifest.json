@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-contact-list/static/js/main.6f9a5494.chunk.js",
-    "main.js.map": "/react-contact-list/static/js/main.6f9a5494.chunk.js.map",
+    "main.js": "/react-contact-list/static/js/main.9beea81a.chunk.js",
+    "main.js.map": "/react-contact-list/static/js/main.9beea81a.chunk.js.map",
     "runtime-main.js": "/react-contact-list/static/js/runtime-main.8cbf87cf.js",
     "runtime-main.js.map": "/react-contact-list/static/js/runtime-main.8cbf87cf.js.map",
     "static/js/2.88d657d4.chunk.js": "/react-contact-list/static/js/2.88d657d4.chunk.js",
     "static/js/2.88d657d4.chunk.js.map": "/react-contact-list/static/js/2.88d657d4.chunk.js.map",
     "index.html": "/react-contact-list/index.html",
-    "precache-manifest.f93dd575418928f37c2ca04e2e113a08.js": "/react-contact-list/precache-manifest.f93dd575418928f37c2ca04e2e113a08.js",
+    "precache-manifest.4fdb4124e3cab283355d290148586eee.js": "/react-contact-list/precache-manifest.4fdb4124e3cab283355d290148586eee.js",
     "service-worker.js": "/react-contact-list/service-worker.js",
     "static/js/2.88d657d4.chunk.js.LICENSE.txt": "/react-contact-list/static/js/2.88d657d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8cbf87cf.js",
     "static/js/2.88d657d4.chunk.js",
-    "static/js/main.6f9a5494.chunk.js"
+    "static/js/main.9beea81a.chunk.js"
   ]
 }
