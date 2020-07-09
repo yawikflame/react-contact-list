@@ -4,6 +4,10 @@ import { inputChange, filterContacts } from '../actions';
 import { connect } from 'react-redux';
 
 class App extends React.Component {
+  componentDidMount = () => {
+    this.props.filterContacts(this.props.contacts, '');
+  };
+
   onInputChange = (event) => {
     this.props.inputChange(event.target.value);
     this.props.filterContacts(this.props.contacts, event.target.value);
